@@ -10,8 +10,8 @@ export default (
    
     <Switch>
         <Route exact path = '/' component={Home} />
-        <Route exact path = '/about' component={About}/>
-        <Route exact path = '/classlist/:class' component={ClassList}/>
+        <Route path = '/about' component={About}/>
+        <Route path = '/classlist/:class' component={ClassList}/>
     </Switch>
     
 )
